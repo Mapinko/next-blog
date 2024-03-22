@@ -13,12 +13,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <MainHeader />
         {children}
+        <footer>
+          <p>Mariana - RM553476</p>
+          <p>Beatriz - RM552600</p>
+          <p>Kaua - RM552618</p>
+        </footer>
       </body>
-      <footer>
-        <p>Mariana - RM553476</p>
-        <p>Beatriz - RM552600</p>
-        <p>Kaua - RM552618</p>
-      </footer>
     </html>
   );
 }

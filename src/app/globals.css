@@ -11,6 +11,7 @@ html {
 body {
   margin: 0;
   background: radial-gradient(#282c34, #282c34);
+
 }
 
 .not-found {
@@ -36,4 +37,12 @@ body {
   font-size: 1.5rem;
   font-weight: 500;
   color: #ddd8d8;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 1rem;
+
+  
 }
